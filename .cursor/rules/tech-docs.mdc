@@ -1,0 +1,17 @@
+---
+description: Tech docs (stack, API, auth, errors, security, testing)
+globs:
+  - docs/02-tech/**/*.md
+alwaysApply: false
+---
+
+# Tech docs
+
+Implementation-facing documentation.
+
+- Document **chosen** stack in `stack.md`; major choices need an ADR in `03-decisions/`
+- `authentication.md` — only modes enabled for the project (`AUTH_*` flags)
+- OTP: `has_account` / `profile_completed` + complete-profile endpoint
+- Google: ID token in, Bearer token out
+- `errors.md` — stable codes table shared with mobile/backend
+- Prefer linking backend OpenAPI over pasting huge endpoint dumps into `api.md`

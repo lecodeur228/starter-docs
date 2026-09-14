@@ -1,0 +1,15 @@
+---
+description: Architecture Decision Records under docs/03-decisions
+globs:
+  - docs/03-decisions/**/*.md
+alwaysApply: false
+---
+
+# ADR rules
+
+- New decision: copy `template.md` → `NNNN-short-title.md`
+- One decision per file
+- Sections: Context → Options → Decision → Consequences
+- Status: Proposed | Accepted | Deprecated | Superseded
+- Update the index table in `README.md`
+- Link accepted stack ADRs from `../02-tech/stack.md`

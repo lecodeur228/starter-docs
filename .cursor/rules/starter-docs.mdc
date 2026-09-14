@@ -1,0 +1,39 @@
+---
+description: Core rules for starter-docs — PRD distribution across overview, product, tech, decisions, runbooks
+alwaysApply: true
+---
+
+# Starter Docs — Agent Rules
+
+This repository is **documentation only** (product + tech). No application code.
+
+## Trilogy
+
+```text
+docs/ (this repo) · mobile/ · backend/
+```
+
+## When given a PRD
+
+1. Do **not** paste the PRD into one file.
+2. Split content into the correct folders:
+
+| Content | Destination |
+|---------|-------------|
+| Map, glossary, repo links | `docs/00-overview/` |
+| Vision, personas, stories, specs, roadmap | `docs/01-product/` |
+| Stack, architecture, API, auth, errors, … | `docs/02-tech/` |
+| Why we chose X | `docs/03-decisions/` (ADR from `template.md`) |
+| Setup / envs / deploy | `docs/04-runbooks/` |
+
+3. Keep `TODO` where the PRD is silent.
+4. Do not invent product or API details.
+5. No secrets in docs.
+6. Follow [AGENTS.md](../../AGENTS.md) for the full checklist.
+
+## Page discipline
+
+- One job per page
+- Cross-link; do not duplicate long sections
+- Auth docs must list only enabled modes (or mark disabled explicitly)
+- Error **codes** are stable; messages may be translated

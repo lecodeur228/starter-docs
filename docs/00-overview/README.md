@@ -18,10 +18,11 @@ How this documentation set fits the project.
 
 ## Doc map
 
-1. **Product** → `../01-product/`
-2. **Tech** → `../02-tech/`
-3. **Decisions (ADR)** → `../03-decisions/`
-4. **Runbooks** → `../04-runbooks/`
+1. **From a PRD** → [from-prd.md](from-prd.md)
+2. **Product** → `../01-product/`
+3. **Tech** → `../02-tech/`
+4. **Decisions (ADR)** → `../03-decisions/`
+5. **Runbooks** → `../04-runbooks/`
 
 ## Status
 

@@ -1,0 +1,18 @@
+---
+description: Product docs (vision, personas, stories, cahier des charges, roadmap)
+globs:
+  - docs/01-product/**/*.md
+alwaysApply: false
+---
+
+# Product docs
+
+Fill from the PRD’s product sections only.
+
+- `vision.md` — problem, audience, value, out of scope, metrics
+- `personas.md` — who and why
+- `user-stories.md` — epics + stories
+- `cahier-des-charges.md` — FR / NFR, constraints, acceptance
+- `roadmap.md` — phases
+
+Do not put API paths, env flags, or ADR trade-offs here — link to `02-tech/` / `03-decisions/` instead.
